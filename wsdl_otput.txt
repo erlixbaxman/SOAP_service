@@ -1,0 +1,1536 @@
+(Definitions){
+   _WObject__resolved = False
+   id = "Definitions:0x1cfec564ca0"
+   options = Definitions:
+	cache: classes=(<class 'suds.cache.Cache'>,), default=<suds.cache.NoCache object at 0x000001CFEC272F70>
+	documentStore: classes=(<class 'suds.store.DocumentStore'>,), default=<suds.store.DocumentStore object at 0x000001CFEC36FDF0>
+	extraArgumentErrors: classes=(<class 'bool'>,), default=True
+	allowUnknownMessageParts: classes=(<class 'bool'>,), default=False
+	faults: classes=(<class 'bool'>,), default=True
+	transport: classes=(<class 'suds.transport.Transport'>,), default=None
+	service: classes=(<class 'int'>, <class 'str'>), default=None
+	port: classes=(<class 'int'>, <class 'str'>), default=None
+	location: classes=(<class 'str'>,), default=None
+	soapheaders: classes=*, default=()
+	wsse: classes=(<class 'suds.wsse.Security'>,), default=None
+	doctor: classes=(<class 'suds.xsd.doctor.Doctor'>,), default=None
+	xstq: classes=(<class 'bool'>,), default=True
+	prefixes: classes=(<class 'bool'>,), default=True
+	retxml: classes=(<class 'bool'>,), default=False
+	prettyxml: classes=(<class 'bool'>,), default=False
+	autoblend: classes=(<class 'bool'>,), default=False
+	cachingpolicy: classes=(<class 'int'>,), default=0
+	plugins: classes=(<class 'list'>, <class 'tuple'>), default=[]
+	nosend: classes=(<class 'bool'>,), default=False
+	unwrap: classes=(<class 'bool'>,), default=True
+	sortNamespaces: classes=(<class 'bool'>,), default=True
+Content:
+	('cache', <suds.cache.ObjectCache object at 0x000001CFEC564A60>)
+	('documentStore', <suds.store.DocumentStore object at 0x000001CFEC36FDF0>)
+	('extraArgumentErrors', True)
+	('allowUnknownMessageParts', False)
+	('faults', True)
+	('transport', <suds.transport.https.HttpAuthenticated object at 0x000001CFEC564340>)
+	('service', None)
+	('port', None)
+	('location', None)
+	('soapheaders', ())
+	('wsse', None)
+	('doctor', None)
+	('xstq', True)
+	('prefixes', True)
+	('retxml', False)
+	('prettyxml', False)
+	('autoblend', False)
+	('cachingpolicy', 0)
+	('plugins', [])
+	('nosend', False)
+	('unwrap', True)
+	('sortNamespaces', True)
+Linked:
+Definitions:
+	proxy: classes=(<class 'dict'>,), default={}
+	timeout: classes=(<class 'int'>, <class 'float'>), default=90
+	headers: classes=(<class 'dict'>,), default={}
+	username: classes=(<class 'str'>,), default=None
+	password: classes=(<class 'str'>,), default=None
+Content:
+	('proxy', {})
+	('timeout', 90)
+	('headers', {})
+	('username', None)
+	('password', None)
+Linked:
+Definitions:
+	cache: classes=(<class 'suds.cache.Cache'>,), default=<suds.cache.NoCache object at 0x000001CFEC272F70>
+	documentStore: classes=(<class 'suds.store.DocumentStore'>,), default=<suds.store.DocumentStore object at 0x000001CFEC36FDF0>
+	extraArgumentErrors: classes=(<class 'bool'>,), default=True
+	allowUnknownMessageParts: classes=(<class 'bool'>,), default=False
+	faults: classes=(<class 'bool'>,), default=True
+	transport: classes=(<class 'suds.transport.Transport'>,), default=None
+	service: classes=(<class 'int'>, <class 'str'>), default=None
+	port: classes=(<class 'int'>, <class 'str'>), default=None
+	location: classes=(<class 'str'>,), default=None
+	soapheaders: classes=*, default=()
+	wsse: classes=(<class 'suds.wsse.Security'>,), default=None
+	doctor: classes=(<class 'suds.xsd.doctor.Doctor'>,), default=None
+	xstq: classes=(<class 'bool'>,), default=True
+	prefixes: classes=(<class 'bool'>,), default=True
+	retxml: classes=(<class 'bool'>,), default=False
+	prettyxml: classes=(<class 'bool'>,), default=False
+	autoblend: classes=(<class 'bool'>,), default=False
+	cachingpolicy: classes=(<class 'int'>,), default=0
+	plugins: classes=(<class 'list'>, <class 'tuple'>), default=[]
+	nosend: classes=(<class 'bool'>,), default=False
+	unwrap: classes=(<class 'bool'>,), default=True
+	sortNamespaces: classes=(<class 'bool'>,), default=True
+Content:
+	('cache', <suds.cache.ObjectCache object at 0x000001CFEC564A60>)
+	('documentStore', <suds.store.DocumentStore object at 0x000001CFEC36FDF0>)
+	('extraArgumentErrors', True)
+	('allowUnknownMessageParts', False)
+	('faults', True)
+	('transport', <suds.transport.https.HttpAuthenticated object at 0x000001CFEC564340>)
+	('service', None)
+	('port', None)
+	('location', None)
+	('soapheaders', ())
+	('wsse', None)
+	('doctor', None)
+	('xstq', True)
+	('prefixes', True)
+	('retxml', False)
+	('prettyxml', False)
+	('autoblend', False)
+	('cachingpolicy', 0)
+	('plugins', [])
+	('nosend', False)
+	('unwrap', True)
+	('sortNamespaces', True)
+   url = "http://localhost:8000/?wsdl"
+   tns[] = 
+      "tns",
+      "http://localhost:8000/",
+   types[] = 
+      (Types){
+         _WObject__resolved = True
+         definitions = (Definitions)...
+      },
+   schema = "<Schema:0x1cfec61e310 tns="http://localhost:8000/"/>"
+   imports[] = <empty>
+   messages = 
+      {
+         (add_product, http://localhost:8000/, ) = 
+            (Message){
+               _WObject__resolved = True
+               name = "add_product"
+               qname = "(add_product, http://localhost:8000/)"
+               parts[] = 
+                  (Part){
+                     root = <wsdl:part name="add_product" element="tns:add_product"/>
+                     _WObject__resolved = False
+                     name = "add_product"
+                     qname[] = 
+                        "add_product",
+                        "http://localhost:8000/",
+                     element = "('add_product', 'http://localhost:8000/')"
+                     type = "None"
+                  },
+            }
+         (add_productResponse, http://localhost:8000/, ) = 
+            (Message){
+               _WObject__resolved = True
+               name = "add_productResponse"
+               qname = "(add_productResponse, http://localhost:8000/)"
+               parts[] = 
+                  (Part){
+                     root = <wsdl:part name="add_productResponse" element="tns:add_productResponse"/>
+                     _WObject__resolved = False
+                     name = "add_productResponse"
+                     qname[] = 
+                        "add_productResponse",
+                        "http://localhost:8000/",
+                     element = "('add_productResponse', 'http://localhost:8000/')"
+                     type = "None"
+                  },
+            }
+         (update_product, http://localhost:8000/, ) = 
+            (Message){
+               _WObject__resolved = True
+               name = "update_product"
+               qname = "(update_product, http://localhost:8000/)"
+               parts[] = 
+                  (Part){
+                     root = <wsdl:part name="update_product" element="tns:update_product"/>
+                     _WObject__resolved = False
+                     name = "update_product"
+                     qname[] = 
+                        "update_product",
+                        "http://localhost:8000/",
+                     element = "('update_product', 'http://localhost:8000/')"
+                     type = "None"
+                  },
+            }
+         (update_productResponse, http://localhost:8000/, ) = 
+            (Message){
+               _WObject__resolved = True
+               name = "update_productResponse"
+               qname = "(update_productResponse, http://localhost:8000/)"
+               parts[] = 
+                  (Part){
+                     root = <wsdl:part name="update_productResponse" element="tns:update_productResponse"/>
+                     _WObject__resolved = False
+                     name = "update_productResponse"
+                     qname[] = 
+                        "update_productResponse",
+                        "http://localhost:8000/",
+                     element = "('update_productResponse', 'http://localhost:8000/')"
+                     type = "None"
+                  },
+            }
+         (get_all_products, http://localhost:8000/, ) = 
+            (Message){
+               _WObject__resolved = True
+               name = "get_all_products"
+               qname = "(get_all_products, http://localhost:8000/)"
+               parts[] = 
+                  (Part){
+                     root = <wsdl:part name="get_all_products" element="tns:get_all_products"/>
+                     _WObject__resolved = False
+                     name = "get_all_products"
+                     qname[] = 
+                        "get_all_products",
+                        "http://localhost:8000/",
+                     element = "('get_all_products', 'http://localhost:8000/')"
+                     type = "None"
+                  },
+            }
+         (get_all_productsResponse, http://localhost:8000/, ) = 
+            (Message){
+               _WObject__resolved = True
+               name = "get_all_productsResponse"
+               qname = "(get_all_productsResponse, http://localhost:8000/)"
+               parts[] = 
+                  (Part){
+                     root = <wsdl:part name="get_all_productsResponse" element="tns:get_all_productsResponse"/>
+                     _WObject__resolved = False
+                     name = "get_all_productsResponse"
+                     qname[] = 
+                        "get_all_productsResponse",
+                        "http://localhost:8000/",
+                     element = "('get_all_productsResponse', 'http://localhost:8000/')"
+                     type = "None"
+                  },
+            }
+         (delete_product, http://localhost:8000/, ) = 
+            (Message){
+               _WObject__resolved = True
+               name = "delete_product"
+               qname = "(delete_product, http://localhost:8000/)"
+               parts[] = 
+                  (Part){
+                     root = <wsdl:part name="delete_product" element="tns:delete_product"/>
+                     _WObject__resolved = False
+                     name = "delete_product"
+                     qname[] = 
+                        "delete_product",
+                        "http://localhost:8000/",
+                     element = "('delete_product', 'http://localhost:8000/')"
+                     type = "None"
+                  },
+            }
+         (delete_productResponse, http://localhost:8000/, ) = 
+            (Message){
+               _WObject__resolved = True
+               name = "delete_productResponse"
+               qname = "(delete_productResponse, http://localhost:8000/)"
+               parts[] = 
+                  (Part){
+                     root = <wsdl:part name="delete_productResponse" element="tns:delete_productResponse"/>
+                     _WObject__resolved = False
+                     name = "delete_productResponse"
+                     qname[] = 
+                        "delete_productResponse",
+                        "http://localhost:8000/",
+                     element = "('delete_productResponse', 'http://localhost:8000/')"
+                     type = "None"
+                  },
+            }
+      }
+   port_types = 
+      {
+         (Application, http://localhost:8000/, ) = 
+            (PortType){
+               _WObject__resolved = True
+               name = "Application"
+               qname = "(Application, http://localhost:8000/)"
+               operations = 
+                  {
+                     add_product = 
+                        (Operation){
+                           name = "add_product"
+                           tns[] = 
+                              "tns",
+                              "http://localhost:8000/",
+                           input = 
+                              (Message){
+                                 _WObject__resolved = True
+                                 name = "add_product"
+                                 qname = "(add_product, http://localhost:8000/)"
+                                 parts[] = 
+                                    (Part){
+                                       root = <wsdl:part name="add_product" element="tns:add_product"/>
+                                       _WObject__resolved = False
+                                       name = "add_product"
+                                       qname[] = 
+                                          "add_product",
+                                          "http://localhost:8000/",
+                                       element = "('add_product', 'http://localhost:8000/')"
+                                       type = "None"
+                                    },
+                              }
+                           output = 
+                              (Message){
+                                 _WObject__resolved = True
+                                 name = "add_productResponse"
+                                 qname = "(add_productResponse, http://localhost:8000/)"
+                                 parts[] = 
+                                    (Part){
+                                       root = <wsdl:part name="add_productResponse" element="tns:add_productResponse"/>
+                                       _WObject__resolved = False
+                                       name = "add_productResponse"
+                                       qname[] = 
+                                          "add_productResponse",
+                                          "http://localhost:8000/",
+                                       element = "('add_productResponse', 'http://localhost:8000/')"
+                                       type = "None"
+                                    },
+                              }
+                           faults[] = <empty>
+                        }
+                     update_product = 
+                        (Operation){
+                           name = "update_product"
+                           tns[] = 
+                              "tns",
+                              "http://localhost:8000/",
+                           input = 
+                              (Message){
+                                 _WObject__resolved = True
+                                 name = "update_product"
+                                 qname = "(update_product, http://localhost:8000/)"
+                                 parts[] = 
+                                    (Part){
+                                       root = <wsdl:part name="update_product" element="tns:update_product"/>
+                                       _WObject__resolved = False
+                                       name = "update_product"
+                                       qname[] = 
+                                          "update_product",
+                                          "http://localhost:8000/",
+                                       element = "('update_product', 'http://localhost:8000/')"
+                                       type = "None"
+                                    },
+                              }
+                           output = 
+                              (Message){
+                                 _WObject__resolved = True
+                                 name = "update_productResponse"
+                                 qname = "(update_productResponse, http://localhost:8000/)"
+                                 parts[] = 
+                                    (Part){
+                                       root = <wsdl:part name="update_productResponse" element="tns:update_productResponse"/>
+                                       _WObject__resolved = False
+                                       name = "update_productResponse"
+                                       qname[] = 
+                                          "update_productResponse",
+                                          "http://localhost:8000/",
+                                       element = "('update_productResponse', 'http://localhost:8000/')"
+                                       type = "None"
+                                    },
+                              }
+                           faults[] = <empty>
+                        }
+                     get_all_products = 
+                        (Operation){
+                           name = "get_all_products"
+                           tns[] = 
+                              "tns",
+                              "http://localhost:8000/",
+                           input = 
+                              (Message){
+                                 _WObject__resolved = True
+                                 name = "get_all_products"
+                                 qname = "(get_all_products, http://localhost:8000/)"
+                                 parts[] = 
+                                    (Part){
+                                       root = <wsdl:part name="get_all_products" element="tns:get_all_products"/>
+                                       _WObject__resolved = False
+                                       name = "get_all_products"
+                                       qname[] = 
+                                          "get_all_products",
+                                          "http://localhost:8000/",
+                                       element = "('get_all_products', 'http://localhost:8000/')"
+                                       type = "None"
+                                    },
+                              }
+                           output = 
+                              (Message){
+                                 _WObject__resolved = True
+                                 name = "get_all_productsResponse"
+                                 qname = "(get_all_productsResponse, http://localhost:8000/)"
+                                 parts[] = 
+                                    (Part){
+                                       root = <wsdl:part name="get_all_productsResponse" element="tns:get_all_productsResponse"/>
+                                       _WObject__resolved = False
+                                       name = "get_all_productsResponse"
+                                       qname[] = 
+                                          "get_all_productsResponse",
+                                          "http://localhost:8000/",
+                                       element = "('get_all_productsResponse', 'http://localhost:8000/')"
+                                       type = "None"
+                                    },
+                              }
+                           faults[] = <empty>
+                        }
+                     delete_product = 
+                        (Operation){
+                           name = "delete_product"
+                           tns[] = 
+                              "tns",
+                              "http://localhost:8000/",
+                           input = 
+                              (Message){
+                                 _WObject__resolved = True
+                                 name = "delete_product"
+                                 qname = "(delete_product, http://localhost:8000/)"
+                                 parts[] = 
+                                    (Part){
+                                       root = <wsdl:part name="delete_product" element="tns:delete_product"/>
+                                       _WObject__resolved = False
+                                       name = "delete_product"
+                                       qname[] = 
+                                          "delete_product",
+                                          "http://localhost:8000/",
+                                       element = "('delete_product', 'http://localhost:8000/')"
+                                       type = "None"
+                                    },
+                              }
+                           output = 
+                              (Message){
+                                 _WObject__resolved = True
+                                 name = "delete_productResponse"
+                                 qname = "(delete_productResponse, http://localhost:8000/)"
+                                 parts[] = 
+                                    (Part){
+                                       root = <wsdl:part name="delete_productResponse" element="tns:delete_productResponse"/>
+                                       _WObject__resolved = False
+                                       name = "delete_productResponse"
+                                       qname[] = 
+                                          "delete_productResponse",
+                                          "http://localhost:8000/",
+                                       element = "('delete_productResponse', 'http://localhost:8000/')"
+                                       type = "None"
+                                    },
+                              }
+                           faults[] = <empty>
+                        }
+                  }
+            }
+      }
+   bindings = 
+      {
+         (Application, http://localhost:8000/, ) = 
+            (Binding){
+               _WObject__resolved = True
+               name = "Application"
+               qname = "(Application, http://localhost:8000/)"
+               operations = 
+                  {
+                     add_product = 
+                        (Operation){
+                           name = "add_product"
+                           soap = 
+                              (soap){
+                                 action = ""add_product""
+                                 style = "document"
+                                 input = 
+                                    (Input){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="add_product" element="tns:add_product"/>
+                                                   _WObject__resolved = False
+                                                   name = "add_product"
+                                                   qname[] = 
+                                                      "add_product",
+                                                      "http://localhost:8000/",
+                                                   element = "('add_product', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 output = 
+                                    (Output){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="add_productResponse" element="tns:add_productResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "add_productResponse"
+                                                   qname[] = 
+                                                      "add_productResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('add_productResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 faults[] = <empty>
+                              }
+                        }
+                     update_product = 
+                        (Operation){
+                           name = "update_product"
+                           soap = 
+                              (soap){
+                                 action = ""update_product""
+                                 style = "document"
+                                 input = 
+                                    (Input){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="update_product" element="tns:update_product"/>
+                                                   _WObject__resolved = False
+                                                   name = "update_product"
+                                                   qname[] = 
+                                                      "update_product",
+                                                      "http://localhost:8000/",
+                                                   element = "('update_product', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 output = 
+                                    (Output){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="update_productResponse" element="tns:update_productResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "update_productResponse"
+                                                   qname[] = 
+                                                      "update_productResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('update_productResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 faults[] = <empty>
+                              }
+                        }
+                     get_all_products = 
+                        (Operation){
+                           name = "get_all_products"
+                           soap = 
+                              (soap){
+                                 action = ""get_all_products""
+                                 style = "document"
+                                 input = 
+                                    (Input){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="get_all_products" element="tns:get_all_products"/>
+                                                   _WObject__resolved = False
+                                                   name = "get_all_products"
+                                                   qname[] = 
+                                                      "get_all_products",
+                                                      "http://localhost:8000/",
+                                                   element = "('get_all_products', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 output = 
+                                    (Output){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="get_all_productsResponse" element="tns:get_all_productsResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "get_all_productsResponse"
+                                                   qname[] = 
+                                                      "get_all_productsResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('get_all_productsResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 faults[] = <empty>
+                              }
+                        }
+                     delete_product = 
+                        (Operation){
+                           name = "delete_product"
+                           soap = 
+                              (soap){
+                                 action = ""delete_product""
+                                 style = "document"
+                                 input = 
+                                    (Input){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="delete_product" element="tns:delete_product"/>
+                                                   _WObject__resolved = False
+                                                   name = "delete_product"
+                                                   qname[] = 
+                                                      "delete_product",
+                                                      "http://localhost:8000/",
+                                                   element = "('delete_product', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 output = 
+                                    (Output){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="delete_productResponse" element="tns:delete_productResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "delete_productResponse"
+                                                   qname[] = 
+                                                      "delete_productResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('delete_productResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 faults[] = <empty>
+                              }
+                        }
+                  }
+               type = 
+                  (PortType){
+                     _WObject__resolved = True
+                     name = "Application"
+                     qname = "(Application, http://localhost:8000/)"
+                     operations = 
+                        {
+                           add_product = 
+                              (Operation){
+                                 name = "add_product"
+                                 tns[] = 
+                                    "tns",
+                                    "http://localhost:8000/",
+                                 input = 
+                                    (Message){
+                                       _WObject__resolved = True
+                                       name = "add_product"
+                                       qname = "(add_product, http://localhost:8000/)"
+                                       parts[] = 
+                                          (Part){
+                                             root = <wsdl:part name="add_product" element="tns:add_product"/>
+                                             _WObject__resolved = False
+                                             name = "add_product"
+                                             qname[] = 
+                                                "add_product",
+                                                "http://localhost:8000/",
+                                             element = "('add_product', 'http://localhost:8000/')"
+                                             type = "None"
+                                          },
+                                    }
+                                 output = 
+                                    (Message){
+                                       _WObject__resolved = True
+                                       name = "add_productResponse"
+                                       qname = "(add_productResponse, http://localhost:8000/)"
+                                       parts[] = 
+                                          (Part){
+                                             root = <wsdl:part name="add_productResponse" element="tns:add_productResponse"/>
+                                             _WObject__resolved = False
+                                             name = "add_productResponse"
+                                             qname[] = 
+                                                "add_productResponse",
+                                                "http://localhost:8000/",
+                                             element = "('add_productResponse', 'http://localhost:8000/')"
+                                             type = "None"
+                                          },
+                                    }
+                                 faults[] = <empty>
+                              }
+                           update_product = 
+                              (Operation){
+                                 name = "update_product"
+                                 tns[] = 
+                                    "tns",
+                                    "http://localhost:8000/",
+                                 input = 
+                                    (Message){
+                                       _WObject__resolved = True
+                                       name = "update_product"
+                                       qname = "(update_product, http://localhost:8000/)"
+                                       parts[] = 
+                                          (Part){
+                                             root = <wsdl:part name="update_product" element="tns:update_product"/>
+                                             _WObject__resolved = False
+                                             name = "update_product"
+                                             qname[] = 
+                                                "update_product",
+                                                "http://localhost:8000/",
+                                             element = "('update_product', 'http://localhost:8000/')"
+                                             type = "None"
+                                          },
+                                    }
+                                 output = 
+                                    (Message){
+                                       _WObject__resolved = True
+                                       name = "update_productResponse"
+                                       qname = "(update_productResponse, http://localhost:8000/)"
+                                       parts[] = 
+                                          (Part){
+                                             root = <wsdl:part name="update_productResponse" element="tns:update_productResponse"/>
+                                             _WObject__resolved = False
+                                             name = "update_productResponse"
+                                             qname[] = 
+                                                "update_productResponse",
+                                                "http://localhost:8000/",
+                                             element = "('update_productResponse', 'http://localhost:8000/')"
+                                             type = "None"
+                                          },
+                                    }
+                                 faults[] = <empty>
+                              }
+                           get_all_products = 
+                              (Operation){
+                                 name = "get_all_products"
+                                 tns[] = 
+                                    "tns",
+                                    "http://localhost:8000/",
+                                 input = 
+                                    (Message){
+                                       _WObject__resolved = True
+                                       name = "get_all_products"
+                                       qname = "(get_all_products, http://localhost:8000/)"
+                                       parts[] = 
+                                          (Part){
+                                             root = <wsdl:part name="get_all_products" element="tns:get_all_products"/>
+                                             _WObject__resolved = False
+                                             name = "get_all_products"
+                                             qname[] = 
+                                                "get_all_products",
+                                                "http://localhost:8000/",
+                                             element = "('get_all_products', 'http://localhost:8000/')"
+                                             type = "None"
+                                          },
+                                    }
+                                 output = 
+                                    (Message){
+                                       _WObject__resolved = True
+                                       name = "get_all_productsResponse"
+                                       qname = "(get_all_productsResponse, http://localhost:8000/)"
+                                       parts[] = 
+                                          (Part){
+                                             root = <wsdl:part name="get_all_productsResponse" element="tns:get_all_productsResponse"/>
+                                             _WObject__resolved = False
+                                             name = "get_all_productsResponse"
+                                             qname[] = 
+                                                "get_all_productsResponse",
+                                                "http://localhost:8000/",
+                                             element = "('get_all_productsResponse', 'http://localhost:8000/')"
+                                             type = "None"
+                                          },
+                                    }
+                                 faults[] = <empty>
+                              }
+                           delete_product = 
+                              (Operation){
+                                 name = "delete_product"
+                                 tns[] = 
+                                    "tns",
+                                    "http://localhost:8000/",
+                                 input = 
+                                    (Message){
+                                       _WObject__resolved = True
+                                       name = "delete_product"
+                                       qname = "(delete_product, http://localhost:8000/)"
+                                       parts[] = 
+                                          (Part){
+                                             root = <wsdl:part name="delete_product" element="tns:delete_product"/>
+                                             _WObject__resolved = False
+                                             name = "delete_product"
+                                             qname[] = 
+                                                "delete_product",
+                                                "http://localhost:8000/",
+                                             element = "('delete_product', 'http://localhost:8000/')"
+                                             type = "None"
+                                          },
+                                    }
+                                 output = 
+                                    (Message){
+                                       _WObject__resolved = True
+                                       name = "delete_productResponse"
+                                       qname = "(delete_productResponse, http://localhost:8000/)"
+                                       parts[] = 
+                                          (Part){
+                                             root = <wsdl:part name="delete_productResponse" element="tns:delete_productResponse"/>
+                                             _WObject__resolved = False
+                                             name = "delete_productResponse"
+                                             qname[] = 
+                                                "delete_productResponse",
+                                                "http://localhost:8000/",
+                                             element = "('delete_productResponse', 'http://localhost:8000/')"
+                                             type = "None"
+                                          },
+                                    }
+                                 faults[] = <empty>
+                              }
+                        }
+                  }
+               soap = 
+                  (soap){
+                     style = "document"
+                  }
+            }
+      }
+   services[] = 
+      (Service){
+         _WObject__resolved = True
+         name = "ProductService"
+         qname = "(ProductService, http://localhost:8000/)"
+         ports[] = 
+            (Port){
+               _WObject__resolved = False
+               name = "Application"
+               qname = "(Application, http://localhost:8000/)"
+               _Port__service = (Service)...
+               binding = 
+                  (Binding){
+                     _WObject__resolved = True
+                     name = "Application"
+                     qname = "(Application, http://localhost:8000/)"
+                     operations = 
+                        {
+                           add_product = 
+                              (Operation){
+                                 name = "add_product"
+                                 soap = 
+                                    (soap){
+                                       action = ""add_product""
+                                       style = "document"
+                                       input = 
+                                          (Input){
+                                             body = 
+                                                (Body){
+                                                   parts[] = 
+                                                      (Part){
+                                                         root = <wsdl:part name="add_product" element="tns:add_product"/>
+                                                         _WObject__resolved = False
+                                                         name = "add_product"
+                                                         qname[] = 
+                                                            "add_product",
+                                                            "http://localhost:8000/",
+                                                         element = "('add_product', 'http://localhost:8000/')"
+                                                         type = "None"
+                                                      },
+                                                   use = "literal"
+                                                   namespace[] = 
+                                                      "tns",
+                                                      "http://localhost:8000/",
+                                                   wrapped = True
+                                                }
+                                             headers[] = <empty>
+                                          }
+                                       output = 
+                                          (Output){
+                                             body = 
+                                                (Body){
+                                                   parts[] = 
+                                                      (Part){
+                                                         root = <wsdl:part name="add_productResponse" element="tns:add_productResponse"/>
+                                                         _WObject__resolved = False
+                                                         name = "add_productResponse"
+                                                         qname[] = 
+                                                            "add_productResponse",
+                                                            "http://localhost:8000/",
+                                                         element = "('add_productResponse', 'http://localhost:8000/')"
+                                                         type = "None"
+                                                      },
+                                                   use = "literal"
+                                                   namespace[] = 
+                                                      "tns",
+                                                      "http://localhost:8000/",
+                                                   wrapped = True
+                                                }
+                                             headers[] = <empty>
+                                          }
+                                       faults[] = <empty>
+                                    }
+                              }
+                           update_product = 
+                              (Operation){
+                                 name = "update_product"
+                                 soap = 
+                                    (soap){
+                                       action = ""update_product""
+                                       style = "document"
+                                       input = 
+                                          (Input){
+                                             body = 
+                                                (Body){
+                                                   parts[] = 
+                                                      (Part){
+                                                         root = <wsdl:part name="update_product" element="tns:update_product"/>
+                                                         _WObject__resolved = False
+                                                         name = "update_product"
+                                                         qname[] = 
+                                                            "update_product",
+                                                            "http://localhost:8000/",
+                                                         element = "('update_product', 'http://localhost:8000/')"
+                                                         type = "None"
+                                                      },
+                                                   use = "literal"
+                                                   namespace[] = 
+                                                      "tns",
+                                                      "http://localhost:8000/",
+                                                   wrapped = True
+                                                }
+                                             headers[] = <empty>
+                                          }
+                                       output = 
+                                          (Output){
+                                             body = 
+                                                (Body){
+                                                   parts[] = 
+                                                      (Part){
+                                                         root = <wsdl:part name="update_productResponse" element="tns:update_productResponse"/>
+                                                         _WObject__resolved = False
+                                                         name = "update_productResponse"
+                                                         qname[] = 
+                                                            "update_productResponse",
+                                                            "http://localhost:8000/",
+                                                         element = "('update_productResponse', 'http://localhost:8000/')"
+                                                         type = "None"
+                                                      },
+                                                   use = "literal"
+                                                   namespace[] = 
+                                                      "tns",
+                                                      "http://localhost:8000/",
+                                                   wrapped = True
+                                                }
+                                             headers[] = <empty>
+                                          }
+                                       faults[] = <empty>
+                                    }
+                              }
+                           get_all_products = 
+                              (Operation){
+                                 name = "get_all_products"
+                                 soap = 
+                                    (soap){
+                                       action = ""get_all_products""
+                                       style = "document"
+                                       input = 
+                                          (Input){
+                                             body = 
+                                                (Body){
+                                                   parts[] = 
+                                                      (Part){
+                                                         root = <wsdl:part name="get_all_products" element="tns:get_all_products"/>
+                                                         _WObject__resolved = False
+                                                         name = "get_all_products"
+                                                         qname[] = 
+                                                            "get_all_products",
+                                                            "http://localhost:8000/",
+                                                         element = "('get_all_products', 'http://localhost:8000/')"
+                                                         type = "None"
+                                                      },
+                                                   use = "literal"
+                                                   namespace[] = 
+                                                      "tns",
+                                                      "http://localhost:8000/",
+                                                   wrapped = True
+                                                }
+                                             headers[] = <empty>
+                                          }
+                                       output = 
+                                          (Output){
+                                             body = 
+                                                (Body){
+                                                   parts[] = 
+                                                      (Part){
+                                                         root = <wsdl:part name="get_all_productsResponse" element="tns:get_all_productsResponse"/>
+                                                         _WObject__resolved = False
+                                                         name = "get_all_productsResponse"
+                                                         qname[] = 
+                                                            "get_all_productsResponse",
+                                                            "http://localhost:8000/",
+                                                         element = "('get_all_productsResponse', 'http://localhost:8000/')"
+                                                         type = "None"
+                                                      },
+                                                   use = "literal"
+                                                   namespace[] = 
+                                                      "tns",
+                                                      "http://localhost:8000/",
+                                                   wrapped = True
+                                                }
+                                             headers[] = <empty>
+                                          }
+                                       faults[] = <empty>
+                                    }
+                              }
+                           delete_product = 
+                              (Operation){
+                                 name = "delete_product"
+                                 soap = 
+                                    (soap){
+                                       action = ""delete_product""
+                                       style = "document"
+                                       input = 
+                                          (Input){
+                                             body = 
+                                                (Body){
+                                                   parts[] = 
+                                                      (Part){
+                                                         root = <wsdl:part name="delete_product" element="tns:delete_product"/>
+                                                         _WObject__resolved = False
+                                                         name = "delete_product"
+                                                         qname[] = 
+                                                            "delete_product",
+                                                            "http://localhost:8000/",
+                                                         element = "('delete_product', 'http://localhost:8000/')"
+                                                         type = "None"
+                                                      },
+                                                   use = "literal"
+                                                   namespace[] = 
+                                                      "tns",
+                                                      "http://localhost:8000/",
+                                                   wrapped = True
+                                                }
+                                             headers[] = <empty>
+                                          }
+                                       output = 
+                                          (Output){
+                                             body = 
+                                                (Body){
+                                                   parts[] = 
+                                                      (Part){
+                                                         root = <wsdl:part name="delete_productResponse" element="tns:delete_productResponse"/>
+                                                         _WObject__resolved = False
+                                                         name = "delete_productResponse"
+                                                         qname[] = 
+                                                            "delete_productResponse",
+                                                            "http://localhost:8000/",
+                                                         element = "('delete_productResponse', 'http://localhost:8000/')"
+                                                         type = "None"
+                                                      },
+                                                   use = "literal"
+                                                   namespace[] = 
+                                                      "tns",
+                                                      "http://localhost:8000/",
+                                                   wrapped = True
+                                                }
+                                             headers[] = <empty>
+                                          }
+                                       faults[] = <empty>
+                                    }
+                              }
+                        }
+                     type = 
+                        (PortType){
+                           _WObject__resolved = True
+                           name = "Application"
+                           qname = "(Application, http://localhost:8000/)"
+                           operations = 
+                              {
+                                 add_product = 
+                                    (Operation){
+                                       name = "add_product"
+                                       tns[] = 
+                                          "tns",
+                                          "http://localhost:8000/",
+                                       input = 
+                                          (Message){
+                                             _WObject__resolved = True
+                                             name = "add_product"
+                                             qname = "(add_product, http://localhost:8000/)"
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="add_product" element="tns:add_product"/>
+                                                   _WObject__resolved = False
+                                                   name = "add_product"
+                                                   qname[] = 
+                                                      "add_product",
+                                                      "http://localhost:8000/",
+                                                   element = "('add_product', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                          }
+                                       output = 
+                                          (Message){
+                                             _WObject__resolved = True
+                                             name = "add_productResponse"
+                                             qname = "(add_productResponse, http://localhost:8000/)"
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="add_productResponse" element="tns:add_productResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "add_productResponse"
+                                                   qname[] = 
+                                                      "add_productResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('add_productResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                          }
+                                       faults[] = <empty>
+                                    }
+                                 update_product = 
+                                    (Operation){
+                                       name = "update_product"
+                                       tns[] = 
+                                          "tns",
+                                          "http://localhost:8000/",
+                                       input = 
+                                          (Message){
+                                             _WObject__resolved = True
+                                             name = "update_product"
+                                             qname = "(update_product, http://localhost:8000/)"
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="update_product" element="tns:update_product"/>
+                                                   _WObject__resolved = False
+                                                   name = "update_product"
+                                                   qname[] = 
+                                                      "update_product",
+                                                      "http://localhost:8000/",
+                                                   element = "('update_product', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                          }
+                                       output = 
+                                          (Message){
+                                             _WObject__resolved = True
+                                             name = "update_productResponse"
+                                             qname = "(update_productResponse, http://localhost:8000/)"
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="update_productResponse" element="tns:update_productResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "update_productResponse"
+                                                   qname[] = 
+                                                      "update_productResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('update_productResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                          }
+                                       faults[] = <empty>
+                                    }
+                                 get_all_products = 
+                                    (Operation){
+                                       name = "get_all_products"
+                                       tns[] = 
+                                          "tns",
+                                          "http://localhost:8000/",
+                                       input = 
+                                          (Message){
+                                             _WObject__resolved = True
+                                             name = "get_all_products"
+                                             qname = "(get_all_products, http://localhost:8000/)"
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="get_all_products" element="tns:get_all_products"/>
+                                                   _WObject__resolved = False
+                                                   name = "get_all_products"
+                                                   qname[] = 
+                                                      "get_all_products",
+                                                      "http://localhost:8000/",
+                                                   element = "('get_all_products', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                          }
+                                       output = 
+                                          (Message){
+                                             _WObject__resolved = True
+                                             name = "get_all_productsResponse"
+                                             qname = "(get_all_productsResponse, http://localhost:8000/)"
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="get_all_productsResponse" element="tns:get_all_productsResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "get_all_productsResponse"
+                                                   qname[] = 
+                                                      "get_all_productsResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('get_all_productsResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                          }
+                                       faults[] = <empty>
+                                    }
+                                 delete_product = 
+                                    (Operation){
+                                       name = "delete_product"
+                                       tns[] = 
+                                          "tns",
+                                          "http://localhost:8000/",
+                                       input = 
+                                          (Message){
+                                             _WObject__resolved = True
+                                             name = "delete_product"
+                                             qname = "(delete_product, http://localhost:8000/)"
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="delete_product" element="tns:delete_product"/>
+                                                   _WObject__resolved = False
+                                                   name = "delete_product"
+                                                   qname[] = 
+                                                      "delete_product",
+                                                      "http://localhost:8000/",
+                                                   element = "('delete_product', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                          }
+                                       output = 
+                                          (Message){
+                                             _WObject__resolved = True
+                                             name = "delete_productResponse"
+                                             qname = "(delete_productResponse, http://localhost:8000/)"
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="delete_productResponse" element="tns:delete_productResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "delete_productResponse"
+                                                   qname[] = 
+                                                      "delete_productResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('delete_productResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                          }
+                                       faults[] = <empty>
+                                    }
+                              }
+                        }
+                     soap = 
+                        (soap){
+                           style = "document"
+                        }
+                  }
+               location = "http://localhost:8000/"
+               methods = 
+                  {
+                     add_product = 
+                        (Method){
+                           name = "add_product"
+                           location = "http://localhost:8000/"
+                           binding = 
+                              (binding){
+                                 input = <suds.bindings.document.Document object at 0x000001CFEC61EF70>
+                                 output = <suds.bindings.document.Document object at 0x000001CFEC61EF70>
+                              }
+                           soap = 
+                              (soap){
+                                 action = ""add_product""
+                                 style = "document"
+                                 input = 
+                                    (Input){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="add_product" element="tns:add_product"/>
+                                                   _WObject__resolved = False
+                                                   name = "add_product"
+                                                   qname[] = 
+                                                      "add_product",
+                                                      "http://localhost:8000/",
+                                                   element = "('add_product', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 output = 
+                                    (Output){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="add_productResponse" element="tns:add_productResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "add_productResponse"
+                                                   qname[] = 
+                                                      "add_productResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('add_productResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 faults[] = <empty>
+                              }
+                        }
+                     update_product = 
+                        (Method){
+                           name = "update_product"
+                           location = "http://localhost:8000/"
+                           binding = 
+                              (binding){
+                                 input = <suds.bindings.document.Document object at 0x000001CFEC61EF70>
+                                 output = <suds.bindings.document.Document object at 0x000001CFEC61EF70>
+                              }
+                           soap = 
+                              (soap){
+                                 action = ""update_product""
+                                 style = "document"
+                                 input = 
+                                    (Input){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="update_product" element="tns:update_product"/>
+                                                   _WObject__resolved = False
+                                                   name = "update_product"
+                                                   qname[] = 
+                                                      "update_product",
+                                                      "http://localhost:8000/",
+                                                   element = "('update_product', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 output = 
+                                    (Output){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="update_productResponse" element="tns:update_productResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "update_productResponse"
+                                                   qname[] = 
+                                                      "update_productResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('update_productResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 faults[] = <empty>
+                              }
+                        }
+                     get_all_products = 
+                        (Method){
+                           name = "get_all_products"
+                           location = "http://localhost:8000/"
+                           binding = 
+                              (binding){
+                                 input = <suds.bindings.document.Document object at 0x000001CFEC61EF70>
+                                 output = <suds.bindings.document.Document object at 0x000001CFEC61EF70>
+                              }
+                           soap = 
+                              (soap){
+                                 action = ""get_all_products""
+                                 style = "document"
+                                 input = 
+                                    (Input){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="get_all_products" element="tns:get_all_products"/>
+                                                   _WObject__resolved = False
+                                                   name = "get_all_products"
+                                                   qname[] = 
+                                                      "get_all_products",
+                                                      "http://localhost:8000/",
+                                                   element = "('get_all_products', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 output = 
+                                    (Output){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="get_all_productsResponse" element="tns:get_all_productsResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "get_all_productsResponse"
+                                                   qname[] = 
+                                                      "get_all_productsResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('get_all_productsResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 faults[] = <empty>
+                              }
+                        }
+                     delete_product = 
+                        (Method){
+                           name = "delete_product"
+                           location = "http://localhost:8000/"
+                           binding = 
+                              (binding){
+                                 input = <suds.bindings.document.Document object at 0x000001CFEC61EF70>
+                                 output = <suds.bindings.document.Document object at 0x000001CFEC61EF70>
+                              }
+                           soap = 
+                              (soap){
+                                 action = ""delete_product""
+                                 style = "document"
+                                 input = 
+                                    (Input){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="delete_product" element="tns:delete_product"/>
+                                                   _WObject__resolved = False
+                                                   name = "delete_product"
+                                                   qname[] = 
+                                                      "delete_product",
+                                                      "http://localhost:8000/",
+                                                   element = "('delete_product', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 output = 
+                                    (Output){
+                                       body = 
+                                          (Body){
+                                             parts[] = 
+                                                (Part){
+                                                   root = <wsdl:part name="delete_productResponse" element="tns:delete_productResponse"/>
+                                                   _WObject__resolved = False
+                                                   name = "delete_productResponse"
+                                                   qname[] = 
+                                                      "delete_productResponse",
+                                                      "http://localhost:8000/",
+                                                   element = "('delete_productResponse', 'http://localhost:8000/')"
+                                                   type = "None"
+                                                },
+                                             use = "literal"
+                                             namespace[] = 
+                                                "tns",
+                                                "http://localhost:8000/",
+                                             wrapped = True
+                                          }
+                                       headers[] = <empty>
+                                    }
+                                 faults[] = <empty>
+                              }
+                        }
+                  }
+            },
+      },
+ }
